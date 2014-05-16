@@ -1,0 +1,18 @@
+{% include header.html %}
+{% include navigation.html %}
+
+        <!-- Content -->
+        <div class="container">
+    		<div class="row">
+    	  		<div class="col-md-3">
+    	  			<img src="{{ site.url }}{{ page.image }}" />
+    	  			<blockquote>
+    	  				<p>"{{ page.quote }}"</p>
+    	  				<p id="author">-RUMI</p>
+    	  			</blockquote>
+    	  		</div>
+    	  		<div class="col-md-9">{{ content }}</div>
+    		</div> 
+        </div>
+
+{% include footer.html %}

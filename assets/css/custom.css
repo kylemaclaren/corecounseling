@@ -1,0 +1,146 @@
+/* Custom styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: "Raleway",Helvetica,Arial,sans-serif;
+  background-color: #ffff99;
+  margin-bottom: 80px;
+}
+h1, .h1 {
+  color: #cc6600;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+}
+p, li {
+  color: #666699;
+  line-height: 1.8;
+  font-weight: 300;
+}
+#logo,
+#footer {
+  background: url(http://www.corecounseling.com/assets/img/bg.png) repeat-x;
+}
+#logo img {
+  width:100%;
+  max-width:500px;
+}
+a,
+.orange {
+  color: #cc6600;
+}
+a:hover {
+  color: #cc6600;
+}
+.navbar-default {
+  background-color: #cc6600;
+  border: none;
+  border-top: 5px solid #ffcc00;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-weight: 500;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #ffcc00;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #ffcc00;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+border-color: #ffcc00;
+}
+.navbar-collapse {
+  border-top: 1px dotted transparent;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  border-top: 5px solid #cc6600;
+  text-align: right;
+}
+#footer img {
+  height:55px;
+  float: left;
+  margin: 10px 0 0 0;
+}
+.footer-text {
+  margin-top: 25px;
+  color: #333;
+  font-weight: 600;
+}
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  margin:20px 0 60px;
+}
+.col-md-3 img {
+  margin-top: 25px;
+  width:90%;
+}
+.col-md-9 img {
+  float:right;
+  padding: 0 20px;
+}
+blockquote {
+  font-family: 'Allura', cursive;
+  text-align: center;
+  padding: 0 30px 0 0;
+  margin: 50px 0 0 0;
+  font-size: 24px;
+  border: none;
+}
+blockquote p {
+  color: #cc6600;
+  line-height: 1;
+}
+#author {
+  font-size: 18px;
+  float: right;
+  margin-right: 20px;
+}
+#browsehappy {
+  background-color: #000000;
+  padding: 15px 0px 5px 0px;
+}
+#browsehappy p {
+  color: #ffffff;
+  text-align: center;
+}
+#browsehappy a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .col-md-3 {
+    display: none;
+  }
+}
+@media (max-width: 696px) {
+  .footer-address {
+  display: none;  
+  }
+}
+@media (max-width: 384px) {
+  .footer-phone {
+  display: none;  
+  }
+}
