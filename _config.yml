@@ -1,5 +1,5 @@
 title: Core Counseling
-keywords: counseling, core counseling, hypnotherapy, psychospiritual counseling, core integration, couples therapy, individual therapy, group therapy
+keywords: "counseling, core counseling, hypnotherapy, psychospiritual counseling, core integration, couples therapy, individual therapy, group therapy"
 baseurl: http://www.corecounseling.com
 
 images: 
@@ -10,11 +10,11 @@ owner:
     name: Cynthia Moore
     email: cynthia@corecounseling.com
     phone: 510.869.5252
-    address: 1676 University Ave. Berkeley, CA 94703
+    address: "1676 University Ave. Berkeley, CA 94703"
 
 navigation:
     - title: Home
-      url: /index.html
+      url: /
     - title: About Cynthia
       url: /cynthia_moore.html
     - title: Core Integration
